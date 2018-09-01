@@ -1,7 +1,9 @@
 <!doctype html>
 <html>
 
-<head></head>
+<head>
+    <script src="../JS/utils_index.js"></script>
+</head>
 
 <body>
     <div id="div_Titulo">
@@ -12,7 +14,7 @@
             <table id="tbl_BotoesPaginaInicial">
                 <tr>
                     <td>
-                        <button id="btn_Cadastrar">Novo Cadastro</button>
+                        <button id="btn_Cadastrar" onclick="novo_cadastro()">Novo Cadastro</button>
                     </td>
                     <td>
                         <button id="btn_Buscar">Buscar</button>
@@ -21,16 +23,16 @@
             </table>
         </div>
     </div>
-    <div id="div_Cadastro">
+    <div id="div_Cadastro" style="visibility: hidden">
         <div id="div_Identificador">
             <table id="tbl_Identificador">
                 <tr>
                     <td>
                         <label id="lbl_TipoIdentificador">Tipo do Identificador:</label>
                         <br>
-                        <select id="sel_TipoIdentificador">
+                        <select id="sel_TipoIdentificador" onchange="checa_identificador()">
                             <option value=""></option>
-                            <option value="rg">RG</option>
+                            <option value="rg"></option>RG</option>
                             <option value="cpf">CPF</option>
                             <option value="passaporte">Passaporte</option>
                             <option value="ctps">CTPS</option>
@@ -69,7 +71,7 @@
                 <tr></tr>
             </table>
         </div>
-        <div id="IdentificadorCTPS">
+        <div id="div_IdentificadorCTPS" style="visibility: hidden">
             <table id="tbl_IdentificadorCTPS">
                 <tr>
                     <td>
@@ -112,7 +114,7 @@
                 </tr>
             </table>
         </div>
-        <div id="div_IdentificadorCertidao">
+        <div id="div_IdentificadorCertidao" style="visibility: hidden">
             <table id="tbl_IdentificadorCertidao">
                 <tr>
                     <td>
@@ -150,8 +152,8 @@
                 </tr>
             </table>
         </div>
-        <div id="div_TituloEleitor">
-            <table id="tbl_TituloEleitor">
+        <div id="div_IdentificadorEleitor" style="visibility: hidden">
+            <table id="tbl_IdentificadorEleitor">
                 <tr>
                     <td>
                         <label id="lbl_Secao">Seção:</label>
