@@ -1,44 +1,58 @@
-function novo_cadastro() {
-    document.getElementById("div_Cadastro").style.visibility = "visible";
+function novoCadastro() {
+    document.getElementById("div_Cadastro").style.display = "block";
 }
 
-function mostrar_identificador_CTPS() {
-    document.getElementById("div_IdentificadorCTPS").style.visibility = "visible";
-    esconder_identificador_Certidao();
-    esconder_identificador_Eleitor();
+function mostarCamposIdentificadorCTPS() {
+    document.getElementById("div_IdentificadorCTPS").style.display = "block";
+    esconderCamposIdentificadorCertidao();
+    esconderCamposIdentificadorEleitor();
 }
 
-function esconder_identificador_CTPS() {
-    document.getElementById("div_IdentificadorCTPS").style.visibility = "hidden";
+function esconderCamposIdentificadorCTPS() {
+    document.getElementById("div_IdentificadorCTPS").style.display = "none";
 }
 
-function mostrar_identificador_Certidao() {
-    document.getElementById("div_IdentificadorCertidao").style.visibility = "visible";
-    esconder_identificador_CTPS();
-    esconder_identificador_Eleitor();
+function mostrarCamposIdentificadorCertidao() {
+    document.getElementById("div_IdentificadorCertidao").style.display = "block";
+    esconderCamposIdentificadorCTPS();
+    esconderCamposIdentificadorEleitor();
 }
 
-function esconder_identificador_Certidao() {
-    document.getElementById("div_IdentificadorCertidao").style.visibility = "hidden";
+function esconderCamposIdentificadorCertidao() {
+    document.getElementById("div_IdentificadorCertidao").style.display = "none";
 }
 
-function mostrar_identificador_Eleitor() {
-    document.getElementById("div_IdentificadorEleitor").style.visibility = "visible";
-    esconder_identificador_Certidao();
-    esconder_identificador_CTPS();
+function mostrarCamposIdentificadorEleitor() {
+    document.getElementById("div_IdentificadorEleitor").style.display = "block";
+    esconderCamposIdentificadorCertidao();
+    esconderCamposIdentificadorCTPS();
 }
 
-function esconder_identificador_Eleitor() {
-    document.getElementById("div_IdentificadorEleitor").style.visibility = "hidden";
+function esconderCamposIdentificadorEleitor() {
+    document.getElementById("div_IdentificadorEleitor").style.display = "none";
 }
 
 function esconde_todos_identificadores(){
-    esconder_identificador_Certidao();
-    esconder_identificador_CTPS();
-    esconder_identificador_Eleitor();
+    esconderCamposIdentificadorCertidao();
+    esconderCamposIdentificadorCTPS();
+    esconderCamposIdentificadorEleitor();
 }
 
-function checa_identificador(var a){
-
+function mudarIdentificador(value){
+    if(value == "" || value == "rg" || value == "cpf" ||value == "passaporte"){
+        esconde_todos_identificadores();
+    } else if(value == "ctps"){
+        esconderCamposIdentificadorCertidao();
+        esconderCamposIdentificadorEleitor();
+        mostarCamposIdentificadorCTPS();
+    } else if(value == "certidao"){
+        esconderCamposIdentificadorCTPS();
+        esconderCamposIdentificadorEleitor();
+        mostrarCamposIdentificadorCertidao();
+    } else if(value == "eleitor"){
+        esconderCamposIdentificadorCertidao();
+        esconderCamposIdentificadorCTPS();
+        mostrarCamposIdentificadorEleitor();
+    }
 
 }
