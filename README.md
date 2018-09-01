@@ -1,7 +1,7 @@
 
-# Fundamentos Backend
+# Fundamentos Frontend
 
-### Projeto da matéria Fundamentos de Backend da Especialização Fullstack Web-Mobile - Universidade Federal de Goiás
+### Projeto da matéria Fundamentos de Frontend da Especialização Fullstack Web-Mobile - Universidade Federal de Goiás
 
 #### Alunos:
 
