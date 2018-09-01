@@ -1,5 +1,11 @@
 function novoCadastro() {
+    document.getElementById("div_PaginaInicial").style.display = "none";
     document.getElementById("div_Cadastro").style.display = "block";
+}
+
+function voltarPaginaInicial(){
+    document.getElementById("div_PaginaInicial").style.display = "block";
+    document.getElementById("div_Cadastro").style.display = "none";
 }
 
 function mostarCamposIdentificadorCTPS() {
