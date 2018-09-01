@@ -1,0 +1,172 @@
+<html>
+
+<head></head>
+
+<body>
+    <div id="div_Titulo">
+        <h1 id="h1_Titulo">Cadastro de Indivíduos em Saúde </h1>
+    </div>
+    <div id="div_PaginaInicial">
+        <div id="div_BotoesPaginaInicial">
+            <table id="tbl_BotoesPaginaInicial">
+                <tr>
+                    <td>
+                        <button id="btn_Cadastrar">Novo Cadastro</button>
+                    </td>
+                    <td>
+                        <button id="btn_Buscar">Buscar</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="div_Cadastro">
+        <div id="div_Identificador">
+            <table id="tbl_Identificador">
+                <tr>
+                    <td>
+                        <label id="lbl_TipoIdentificador">Tipo do Identificador:</label>
+                        <br>
+                        <select id="sel_TipoIdentificador">
+                            <option value=""></option>
+                            <option value="rg">RG</option>
+                            <option value="cpf">CPF</option>
+                            <option value="passaporte">Passaporte</option>
+                            <option value="ctps">CTPS</option>
+                            <option value="certidao">Certidão</option>
+                            <option value="eleitor">Título de Eleitor</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label id="lbl_AreaGeografica">Área Geográfica:</label>
+                        <select id="sel_AreaGeografica">
+                            <option value=""></option>
+                            <option value="local">Local</option>
+                            <option value="area">Área, Região ou Distrito</option>
+                            <option value="estado">Estado, Província ou Território</option>
+                            <option value="nacional">Nacional</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="lbl_Designacao">Designação:</label>
+                        <br>
+                        <input id="txt_Designacao" type="text">
+                    </td>
+                    <td>
+                        <label id="lbl_Emissor">Emissor:</label>
+                        <br>
+                        <input id="txt_Emissor" type="text">
+                    </td>
+                    <td>
+                        <label id="lbl_DataEmissao">Data:</label>
+                        <br>
+                        <input id="dt_DataEmissao" type="date">
+                    </td>
+                </tr>
+                <tr></tr>
+            </table>
+        </div>
+        <div id="IdentificadorCTPS">
+            <table id="tbl_IdentificadorCTPS">
+                <tr>
+                    <td>
+                        <label id="lbl_SerieCTPS">Série:</label>
+                        <br>
+                        <input id="txt_SerieCTPS" type="number">
+                    </td>
+                    <td>
+                        <label id="lbl_EstadoCTPS">Estado:</label>
+                        <br>
+                        <select id="sel_Estados">
+                            <option value=""></option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MG">MinasGerais</option>
+                            <option value="MS">Mato Grossodo Sul</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="PR">Paraná</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="div_IdentificadorCertidao">
+            <table id="tbl_IdentificadorCertidao">
+                <tr>
+                    <td>
+                        <label id="lbl_TipoCertidao">Tipo da Certidão:</label>
+                        <br>
+                        <select id="sel_TipoCertidao">
+                            <option value=""></option>
+                            <option value="nascimento">Nascimento</option>
+                            <option value="casamento">Casamento</option>
+                            <option value="divorcio">Divórcio</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label id="lbl_NomeCartorio">Nome do Cartório:</label>
+                        <br>
+                        <input id="txt_NomeCartorio" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="lbl_Livro">Livro:</label>
+                        <br>
+                        <input id="txt_Livro" type="number">
+                    </td>
+                    <td>
+                        <label id="lbl_Folha">Folha:</label>
+                        <br>
+                        <input id="txt_Folha" type="number">
+                    </td>
+                    <td>
+                        <label id="lbl_Termo">Termo:</label>
+                        <br>
+                        <input id="txt_Termo" type="number">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="div_TituloEleitor">
+            <table id="tbl_TituloEleitor">
+                <tr>
+                    <td>
+                        <label id="lbl_Secao">Seção:</label>
+                        <br>
+                        <input id="txt_Secao" type="number">
+                    </td>
+                    <td>
+                        <label id="lbl_Zona">Zona:</label>
+                        <br>
+                        <input id="txt_Zona" type="number">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
