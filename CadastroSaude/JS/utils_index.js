@@ -62,3 +62,13 @@ function mudarIdentificador(value){
     }
 
 }
+
+function nomeMudou(){
+    var nomeCompleto = document.getElementById('lbl_NomeCompletoGerado');
+    var titulo = document.getElementById('txt_Titulo').value;
+    var nomeAtribuido = document.getElementById('txt_NomeAtribuido').value;
+    var sobrenome = document.getElementById('txt_Sobrenome').value;
+    var sufixo = document.getElementById('txt_Sufixo').value;
+
+    nomeCompleto.innerHTML = titulo + " " + nomeAtribuido + " " + sobrenome + " " + sufixo;
+}
