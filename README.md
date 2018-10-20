@@ -6,5 +6,5 @@
 #### Alunos:
 
 * Axel Miguez
-* Italo Tavares
+* Ítalo Tavares
 * Thiago Pereira
