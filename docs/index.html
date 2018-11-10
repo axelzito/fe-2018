@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    
+
     <div id="div_Cadastro" class="row justify-content-center">
 
         <!-- Identificador -->
@@ -28,8 +28,8 @@
 
             <form>
 
-                <div id="div_IdentificadorPadrao" >
-            
+                <div id="div_IdentificadorPadrao">
+
                     <div class="form-row">
 
                         <div class="form-group col-sm-6">
@@ -47,12 +47,12 @@
                             </select>
 
                         </div>
-                        
+
                         <div class="form-group col-sm-6">
 
                             <label id="lbl_AreaGeografica" for="sel_AreaGeografica" class="font-weight-bold">Área Geográfica:</label>
                             <br>
-                            <select id="sel_AreaGeografica"  class="form-control">
+                            <select id="sel_AreaGeografica" class="form-control">
                                 <option value=""></option>
                                 <option value="local">Local</option>
                                 <option value="area">Área, Região ou Distrito</option>
@@ -65,26 +65,26 @@
                         <div class="form-group col-sm-4">
 
                             <label id="lbl_Designacao" for="txt_Designacao" class="font-weight-bold">Designação:</label>
-                            <input id="txt_Designacao" type="text"  class="form-control">
+                            <input id="txt_Designacao" type="text" class="form-control">
 
                         </div>
 
                         <div class="form-group col-sm-4">
 
                             <label id="lbl_Emissor" for="txt_Emissor" class="font-weight-bold">Emissor:</label>
-                            <input id="txt_Emissor" type="text"  class="form-control">
+                            <input id="txt_Emissor" type="text" class="form-control">
 
                         </div>
-                        
+
                         <div class="form-group col-sm-4">
 
                             <label id="lbl_DataEmissao" for="dt_DataEmissao" class="font-weight-bold">Data de Emissão:</label>
-                            <input id="dt_DataEmissao" type="date"  class="form-control">
+                            <input id="dt_DataEmissao" type="date" class="form-control">
 
                         </div>
 
                     </div>
-                              
+
                 </div>
 
                 <div id="div_IdentificadorCTPS" style="display:none">
@@ -94,14 +94,14 @@
                         <div class="form-group col-sm-6">
 
                             <label id="lbl_SerieCTPS" for="txt_SerieCTPS" class="font-weight-bold">Série:</label>
-                            <input id="txt_SerieCTPS" type="number"  class="form-control">
+                            <input id="txt_SerieCTPS" type="number" class="form-control">
 
                         </div>
 
                         <div class="form-group col-sm-6">
 
                             <label id="lbl_EstadoCTPS" for="sel_Estados" class="font-weight-bold">Estado:</label>
-                            <select id="sel_Estados"  class="form-control">
+                            <select id="sel_Estados" class="form-control">
                                 <option value=""></option>
                                 <option value="AC">Acre</option>
                                 <option value="AL">Alagoas</option>
@@ -131,19 +131,19 @@
                             </select>
 
                         </div>
-              
+
                     </div>
-                                
+
                 </div>
 
                 <div id="div_IdentificadorCertidao" style="display:none">
-                    
+
                     <div class="form-row">
 
                         <div class="form-group col-sm-6">
 
                             <label id="lbl_TipoCertidao" for="sel_TipoCertidao" class="font-weight-bold">Tipo da Certidão:</label>
-                            <select id="sel_TipoCertidao"  class="form-control">
+                            <select id="sel_TipoCertidao" class="form-control">
                                 <option value=""></option>
                                 <option value="nascimento">Nascimento</option>
                                 <option value="casamento">Casamento</option>
@@ -170,22 +170,22 @@
 
                             <label id="lbl_Folha" for="txt_Folha" class="font-weight-bold">Folha:</label>
                             <input id="txt_Folha" type="number" class="form-control">
-                            
+
                         </div>
 
                         <div class="form-group col-sm-4">
 
                             <label id="lbl_Termo" for="txt_Termo" class="font-weight-bold">Termo:</label>
                             <input id="txt_Termo" type="number" class="form-control">
-                            
+
                         </div>
 
                     </div>
-                            
+
                 </div>
 
                 <div id="div_IdentificadorEleitor" style="display:none">
-                    
+
                     <div class="form-row">
 
                         <div class="form-group col-sm-6">
@@ -201,9 +201,9 @@
                             <input id="txt_Zona" type="number" class="form-control">
 
                         </div>
-                        
+
                     </div>
-                            
+
                 </div>
 
             </form>
@@ -372,7 +372,7 @@
                         <input id="btn_ApagarNome5" type="button" value="Apagar" class="form-control" onclick="apagarNome(5)" style="display: none">
 
                     </div>
-                    
+
                     <div class="form-group col-sm-10">
 
                         <input id="txt_NomeCompletoGerado6" class="form-control" type="text" disabled="disabled" style="display: none">
@@ -444,14 +444,15 @@
                         <input id="btn_ApagarNome9" type="button" value="Apagar" class="form-control" onclick="apagarNome(9)" style="display: none">
 
                     </div>
-                    
+
                 </div>
 
             </form>
-            
+
         </div>
-        
-        <br><br>
+
+        <br>
+        <br>
 
         <!-- dados demograficos -->
 
@@ -464,10 +465,10 @@
                     <h4>Dados Demográficos</h4>
 
                 </div>
-                
+
             </div>
 
-            <form>                
+            <form>
 
                 <div class="form-row border rounded my-3 p-3">
 
@@ -514,7 +515,7 @@
                     <div class="form-group col-sm-2">
 
                         <label>Mês:</label>
-                        
+
                         <div class="form-check">
 
                             <input type="radio" value="A" class="form-check-input" id="radio_Nasc4" name="mes">
@@ -577,9 +578,9 @@
                         </div>
 
                     </div>
-                        
+
                 </div>
-                
+
                 <div class="form-row border rounded my-3 p-3">
 
                     <div class="form-group col-sm-3">
@@ -625,7 +626,7 @@
                     <div class="form-group col-sm-2">
 
                         <label>Mês:</label>
-                        
+
                         <div class="form-check">
 
                             <input type="radio" value="A" class="form-check-input" id="radio_Obito4" name="mes1">
@@ -688,77 +689,77 @@
                         </div>
 
                         <div class="form-check">
-                            
+
                             <input type="radio" class="form-check-input" name="fonte" value="2">
                             <label class="form-check-label">Prestador de assistência à saúde</label>
 
                         </div>
-                            
+
                         <div class="form-check">
-                            
+
                             <input type="radio" class="form-check-input" name="fonte" value="3">
                             <label class="form-check-label">Parente</label>
 
                         </div>
 
                         <div class="form-check">
-                            
+
                             <input type="radio" class="form-check-input" name="fonte" value="4">
                             <label class="form-check-label">Outro</label>
 
                         </div>
 
                         <div class="form-check">
-                            
+
                             <input type="radio" class="form-check-input" name="fonte" value="9">
                             <label class="form-check-label">Desconhecido</label>
 
                         </div>
 
                     </div>
-                        
+
                 </div>
 
                 <div class="form-row my-3">
-                        
+
                     <div class="form-group col-sm-12">
 
                         <label class="font-weight-bold">Sexo</label>
 
                         <div class="form-check">
-                                
+
                             <input class="form-check-input" type="radio" value="1" id="radio_Sexo1" name="sexo">
                             <label class="form-check-label" for="radio_Sexo1">Masculino (M)</label>
 
                         </div>
 
                         <div class="form-check">
-                                
+
                             <input class="form-check-input" type="radio" value="2" id="radio_Sexo2" name="sexo">
                             <label class="form-check-label" for="radio_Sexo2">Feminino (F)</label>
 
                         </div>
 
                         <div class="form-check">
-                                
+
                             <input class="form-check-input" type="radio" value="3" id="radio_Sexo3" name="sexo">
                             <label class="form-check-label" for="radio_Sexo3">Intersexo ou indeterminado (I)</label>
 
                         </div>
 
                         <div class="form-check">
-                                
+
                             <input class="form-check-input" type="radio" value="9" id="radio_Sexo4" name="sexo">
                             <label class="form-check-label" for="radio_Sexo4">Não declarado (U)</label>
 
                         </div>
-                        
+
                     </div>
 
                 </div>
-                        
+
                 <div class="form-row my-3">
-                        
+
                     <div class="form-group col-sm-10">
 
                         <label for="txt_nomeMae" class="font-weight-bold">Nome Completo da Mãe</label>
@@ -787,14 +788,14 @@
                             <label class="form-check-label" for="chk_SM1">Companheiro(a) e filho(s)</label>
 
                         </div>
-                    
+
                         <div class="form-check">
 
                             <input type="radio" value="2" class="form-check-input" id="chk_SM2" name="radio_Familiar">
                             <label class="form-check-label" for="chk_SM2">Companheiro(a) com laços conjugais e sem filhos</label>
 
                         </div>
-                        
+
 
                         <div class="form-check">
 
@@ -809,7 +810,7 @@
                             <label class="form-check-label" for="chk_SM4">Familiar(es) sem companheiro(a)</label>
 
                         </div>
-                        
+
                         <div class="form-check">
 
                             <input type="radio" value="5" class="form-check-input" id="chk_SM5" name="radio_Familiar">
@@ -827,13 +828,13 @@
                     </div>
 
                 </div>
-                
+
                 <div class="form-row my-3">
 
                     <div class="form-group col-sm-12">
 
                         <label class="font-weight-bold">Raça/cor</label>
-                        
+
                         <div class="form-check">
 
                             <input class="form-check-input" type="checkbox" value="1" id="chk_Raca1">
@@ -842,28 +843,28 @@
                         </div>
 
                         <div class="form-check">
-                                
+
                             <input class="form-check-input" type="checkbox" value="2" id="chk_Raca2">
                             <label class="form-check-label" for="chk_Raca2">Preta</label>
 
                         </div>
-                         
+
                         <div class="form-check">
-                                
+
                             <input class="form-check-input" type="checkbox" value="3" id="chk_Raca3">
                             <label class="form-check-label" for="chk_Raca3">Parda</label>
 
                         </div>
 
                         <div class="form-check">
-                                
+
                             <input class="form-check-input" type="checkbox" value="4" id="chk_Raca4">
                             <label class="form-check-label" for="chk_Raca4">Amarela</label>
 
                         </div>
 
                         <div class="form-check">
-                                
+
                             <input class="form-check-input" type="checkbox" value="5" id="chk_Raca5">
                             <label class="form-check-label" for="chk_Raca5">Indígena</label>
 
@@ -874,7 +875,7 @@
                 </div>
 
                 <div class="form-row border rounded my-3 p-3">
-                        
+
                     <div class="form-group col-sm-12">
 
                         <label class="font-weight-bold">Nacionalidade</label>
@@ -1065,7 +1066,7 @@
                     </div>
 
                     <div id="div_EstadoNascBra" class="form-group col-sm-3">
-                            
+
                         <label for="sel_EstadoNascBra" class="font-weight-bold">Estado de Nascimento:</label>
                         <select id="sel_EstadoNascBra" class="form-control">
                             <option value=""></option>
@@ -1094,28 +1095,28 @@
                             <option value="SE">Sergipe</option>
                             <option value="SP">São Paulo</option>
                             <option value="TO">Tocantins</option>
-                        </select>                  
+                        </select>
 
                     </div>
 
                     <div class="form-group col-sm-3" id="div_EstadoNasc" style="display: none">
-                            
+
                         <label for="txt_EstadoNasc" class="font-weight-bold">Estado de Nascimento:</label>
-                        <input id="txt_EstadoNasc" type="text"  class="form-control">                        
+                        <input id="txt_EstadoNasc" type="text" class="form-control">
 
                     </div>
 
                     <div class="form-group col-sm-3">
-                            
+
                         <label for="txt_MunicipioNasc" class="font-weight-bold">Município de Nascimento:</label>
-                        <input id="txt_MunicipioNasc" type="text"  class="form-control">                        
+                        <input id="txt_MunicipioNasc" type="text" class="form-control">
 
                     </div>
 
                     <div class="form-group col-sm-3" id="div_DataEntrada" style="display: none">
-                            
+
                         <label for="dat_DataEntradaPais" class="font-weight-bold">Data de Entrada no País:</label>
-                        <input id="dat_DataEntradaPais" type="date"  class="form-control">                        
+                        <input id="dat_DataEntradaPais" type="date" class="form-control">
 
                     </div>
 
@@ -1124,7 +1125,7 @@
                 <div class="form-row my-3">
 
                     <div class="form-group col-sm-3">
-                            
+
                         <label for="sel_pluralidade" class="font-weight-bold">Pluralidade do Nascimento:</label>
                         <select id="sel_pluralidade" class="form-control">
                             <option value="1">Único</option>
@@ -1135,16 +1136,16 @@
                             <option value="6">Sêxtuplos</option>
                             <option value="7">Outros</option>
                             <option value="9" selected>Não declarado</option>
-                        </select>            
+                        </select>
 
                     </div>
 
                 </div>
-                
+
                 <div class="form-row my-3">
 
                     <div class="form-group col-sm-3">
-                            
+
                         <label for="sel_OrdemNasc" class="font-weight-bold">Ordem de Nascimento:</label>
                         <select id="sel_OrdemNasc" class="form-control">
                             <option value="1">Único ou primeiro</option>
@@ -1155,18 +1156,18 @@
                             <option value="6">Sexto</option>
                             <option value="7">Outros</option>
                             <option value="9" selected>Não declarado</option>
-                        </select>            
+                        </select>
 
                     </div>
 
                 </div>
 
                 <div class="form-row my-3">
-                        
+
                     <div class="form-group col-sm-6">
-                            
+
                         <label for="area_Comentario" class="font-weight-bold">Comentário de Identificação:</label>
-                        <textarea id="area_Comentario" class="form-control"></textarea>     
+                        <textarea id="area_Comentario" class="form-control"></textarea>
 
                     </div>
 
@@ -1178,91 +1179,1041 @@
 
         <!-- Comunicação Eletrônica -->
 
-<div id="div_ComunicacaoEletronica" class="col-sm-12 col-md10 col-lg-8 border my-3">
-    
-        <div class="row">
-    
-            <div class="col-12 text-left my-3">
-    
-                <h4>Comunicação Eletrônica</h4>
-    
+        <div id="div_ComunicacaoEletronica" class="col-sm-12 col-md10 col-lg-8 border my-3">
+
+            <div class="row">
+
+                <div class="col-12 text-left my-3">
+
+                    <h4>Comunicação Eletrônica</h4>
+
+                </div>
+
             </div>
-    
+
+            <form>
+
+                <!-- Meio de Comunicação -->
+
+                <div class="form-group col-sm-6">
+
+                    <label id="lbl_meioComunicacao" for="sel_meioComunicacao" class="font-weight-bold">Meio de comunicação eletrônica</label>
+                    <br>
+                    <select id="sel_meioComunicacao" class="form-control">
+                        <option value="T">Telefone</option>
+                        <option value="C">Telefone Celular</option>
+                        <option value="F">Fax</option>
+                        <option value="P">Pager</option>
+                        <option value="E">Correio eletrônico</option>
+                        <option value="U">URL</option>
+                        <option value="O">Outro</option>
+                    </select>
+
+                </div>
+
+                <!-- Código de preferência -->
+
+                <div class="form-group col-sm-6">
+
+                    <label id="lbl_codPreferencia" for="sel_codPreferencia" class="font-weight-bold">Código de preferência</label>
+                    <br>
+                    <select id="sel_codPreferencia" class="form-control">
+                        <option value="B">Horário comercial</option>
+                        <option value="D">Durante o dia</option>
+                        <option value="W">Finais de semana</option>
+                        <option value="A">Qualquer hora</option>
+                        <option value="E">Período noturno</option>
+                    </select>
+
+                </div>
+
+                <!-- Detalhes da comunicação eletrônica -->
+
+                <div class="form-group col-sm-10">
+
+                    <label for="txt_detalheComunicacaoEletronica" class="font-weight-bold">Detalhes da comunicação eletrônica</label>
+                    <input id="txt_detalheComunicacaoEletronica" class="form-control" type="text">
+
+                </div>
+
+                <!-- Código de utilização do contato eletrônico -->
+
+                <div class="form-group col-sm-6">
+
+                    <label id="lbl_codUtilizacao" for="sel_codUtilizacao" class="font-weight-bold">Código de utilização do contato eletrônico</label>
+                    <br>
+                    <select id="sel_codUtilizacao" class="form-control">
+                        <option value="B">Comercial</option>
+                        <option value="P">Pessoal</option>
+                        <option value="A">Tanto comercial quanto pessoal</option>
+                    </select>
+
+                </div>
+
+            </form>
+
         </div>
-    
-        <form>
-    
-            <!-- Meio de Comunicação -->
-    
-            <div class="form-group col-sm-6">
-    
-                <label id="lbl_meioComunicacao" for="sel_meioComunicacao" class="font-weight-bold">Meio de comunicação eletrônica</label>
-                <br>
-                <select id="sel_meioComunicacao" class="form-control">
-                    <option value="T">Telefone</option>
-                    <option value="C">Telefone Celular</option>
-                    <option value="F">Fax</option>
-                    <option value="P">Pager</option>
-                    <option value="E">Correio eletrônico</option>
-                    <option value="U">URL</option>
-                    <option value="O">Outro</option>
-                </select>
-    
-            </div>
-    
-            <!-- Código de preferência -->
-    
-            <div class="form-group col-sm-6">
-    
-                <label id="lbl_codPreferencia" for="sel_codPreferencia" class="font-weight-bold">Código de preferência</label>
-                <br>
-                <select id="sel_codPreferencia" class="form-control">
-                    <option value="B">Horário comercial</option>
-                    <option value="D">Durante o dia</option>
-                    <option value="W">Finais de semana</option>
-                    <option value="A">Qualquer hora</option>
-                    <option value="E">Período noturno</option>
-                </select>
-    
-            </div>
-    
-            <!-- Detalhes da comunicação eletrônica -->
-    
-            <div class="form-group col-sm-10">
-    
-                <label for="txt_detalheComunicacaoEletronica" class="font-weight-bold">Detalhes da comunicação eletrônica</label>
-                <input id="txt_detalheComunicacaoEletronica" class="form-control" type="text">
-    
-            </div>
-    
-            <!-- Código de utilização do contato eletrônico -->
-    
-            <div class="form-group col-sm-6">
-    
-                <label id="lbl_codUtilizacao" for="sel_codUtilizacao" class="font-weight-bold">Código de utilização do contato eletrônico</label>
-                <br>
-                <select id="sel_codUtilizacao" class="form-control">
-                    <option value="B">Comercial</option>
-                    <option value="P">Pessoal</option>
-                    <option value="A">Tanto comercial quanto pessoal</option>
-                </select>
-    
-            </div>
-    
-        </form>
-    
-    </div>
 
-    </div>
-        
-        
-    
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.js"></script>
+        <!-- Endereço -->
+
+        <div id="div_Enderecos" class="col-sm-12 col-md-10 col-lg-8 border my-3">
+
+            <div class="row">
+
+                <div class="col-12 text-left my-3">
+
+                    <h4>Endereços</h4>
+
+                </div>
+
+            </div>
+
+            <form>
+
+                <div class="form-row">
+
+                    <div class="form-group col-sm-10">
+
+                        <label class="label is-small">Tipo de endereço</label>
+                        <div class="select is-small">
+                            <select name="tipo">
+                                <option value="1">Comercial</option>
+                                <option value="2">Correio ou postal</option>
+                                <option value="3">Acomodação temporária</option>
+                                <option value="4" selected="">Residencial</option>
+                                <option value="8">Sem endereço fixo</option>
+                                <option value="9">Desconhecido/não declarado</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-10">
+
+                        <label class="label">Data inicial</label>
+                        <input type="date">
+                    </div>
+                    <div class="field">
+
+
+                        <div class="form-group col-sm-12">
+
+                            <label class="font-weight-bold">Indicador de Acurácia</label>
+
+                        </div>
+
+                        <div class="form-group col-sm-2">
+
+                            <label>Dia:</label>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="A" class="form-check-input" id="radio_Obito1" name="dia1">
+                                <label class="form-check-label" for="radio_Obito1">Acurado</label>
+
+                            </div>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="E" class="form-check-input" id="radio_Obito2" name="dia1">
+                                <label class="form-check-label" for="radio_Obito2">Estimado</label>
+
+                            </div>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="U" class="form-check-input" id="radio_Obito3" name="dia1">
+                                <label class="form-check-label" for="radio_Obito3">Desconhecido</label>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group col-sm-2">
+
+                            <label>Mês:</label>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="A" class="form-check-input" id="radio_Obito4" name="mes1">
+                                <label class="form-check-label" for="radio_Obito4">Acurado</label>
+
+                            </div>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="E" class="form-check-input" id="radio_Obito5" name="mes1">
+                                <label class="form-check-label" for="radio_Obito5">Estimado</label>
+
+                            </div>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="U" class="form-check-input" id="radio_Obito6" name="mes1">
+                                <label class="form-check-label" for="radio_Obito6">Desconhecido</label>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group col-sm-2">
+
+                            <label>Ano:</label>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="A" class="form-check-input" id="radio_Obito7" name="ano1">
+                                <label class="form-check-label" for="radio_Obito7">Acurado</label>
+
+                            </div>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="E" class="form-check-input" id="radio_Obito8" name="ano1">
+                                <label class="form-check-label" for="radio_Obito8">Estimado</label>
+
+                            </div>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="U" class="form-check-input" id="radio_Obito9" name="ano1">
+                                <label class="form-check-label" for="radio_Obito9">Desconhecido</label>
+
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="form-group col-sm-10">
+                        <label class="label">Data final</label>
+                        <input type="date">
+                    </div>
+
+                    <div class="form-group col-sm-10">
+
+                        <div class="form-group col-sm-12">
+
+                            <label class="font-weight-bold">Indicador de Acurácia</label>
+
+                        </div>
+
+                        <div class="form-group col-sm-2">
+
+                            <label>Dia:</label>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="A" class="form-check-input" id="radio_Obito1" name="dia1">
+                                <label class="form-check-label" for="radio_Obito1">Acurado</label>
+
+                            </div>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="E" class="form-check-input" id="radio_Obito2" name="dia1">
+                                <label class="form-check-label" for="radio_Obito2">Estimado</label>
+
+                            </div>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="U" class="form-check-input" id="radio_Obito3" name="dia1">
+                                <label class="form-check-label" for="radio_Obito3">Desconhecido</label>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group col-sm-2">
+
+                            <label>Mês:</label>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="A" class="form-check-input" id="radio_Obito4" name="mes1">
+                                <label class="form-check-label" for="radio_Obito4">Acurado</label>
+
+                            </div>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="E" class="form-check-input" id="radio_Obito5" name="mes1">
+                                <label class="form-check-label" for="radio_Obito5">Estimado</label>
+
+                            </div>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="U" class="form-check-input" id="radio_Obito6" name="mes1">
+                                <label class="form-check-label" for="radio_Obito6">Desconhecido</label>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group col-sm-2">
+
+                            <label>Ano:</label>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="A" class="form-check-input" id="radio_Obito7" name="ano1">
+                                <label class="form-check-label" for="radio_Obito7">Acurado</label>
+
+                            </div>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="E" class="form-check-input" id="radio_Obito8" name="ano1">
+                                <label class="form-check-label" for="radio_Obito8">Estimado</label>
+
+                            </div>
+
+                            <div class="form-check">
+
+                                <input type="radio" value="U" class="form-check-input" id="radio_Obito9" name="ano1">
+                                <label class="form-check-label" for="radio_Obito9">Desconhecido</label>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="form-group col-sm-10">
+                        <label class="label">País</label>
+                        <div class="control" onchange="brasilOutro();">
+                            <label class="radio">
+                                <input id="brasil" type="radio" name="pais" checked=""> Brasil
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="pais"> Outro
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-10">
+                        <div class="columns">
+                            <div class="column is-10">
+                                <!-- estado -->
+                                <div class="field is-horizontal">
+                                    <div class="field-label is-small">
+                                        <label class="label">Estado</label>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <div class="control">
+                                                <div class="select is-small">
+                                                    <select id="estados-endereco" onchange="municipiosEndereco()">
+                                                        <option value="AC">Acre</option>
+                                                        <option value="AL">Alagoas
+                                                        </option>
+                                                        <option value="AM">Amazonas
+                                                        </option>
+                                                        <option value="AP">Amapá
+                                                        </option>
+                                                        <option value="BA">Bahia
+                                                        </option>
+                                                        <option value="CE">Ceará
+                                                        </option>
+                                                        <option value="DF">Distrito Federal
+                                                        </option>
+                                                        <option value="ES">Espírito Santo
+                                                        </option>
+                                                        <option value="GO">Goiás
+                                                        </option>
+                                                        <option value="MA">Maranhão
+                                                        </option>
+                                                        <option value="MG">Minas Gerais
+                                                        </option>
+                                                        <option value="MS">Mato Grosso do Sul
+                                                        </option>
+                                                        <option value="MT">Mato Grosso
+                                                        </option>
+                                                        <option value="PA">Pará</option>
+                                                        <option value="PB">Paraíba
+                                                        </option>
+                                                        <option value="PE">Pernambuco
+                                                        </option>
+                                                        <option value="PI">Piauí
+                                                        </option>
+                                                        <option value="PR">Paraná
+                                                        </option>
+                                                        <option value="RJ">Rio de Janeiro
+                                                        </option>
+                                                        <option value="RN">Rio Grande do Norte
+                                                        </option>
+                                                        <option value="RS">Rio Grande do Sul
+                                                        </option>
+                                                        <option value="SC">Santa Catarina
+                                                        </option>
+                                                        <option value="SE">Sergipe
+                                                        </option>
+                                                        <option value="SP">São Paulo
+                                                        </option>
+                                                        <option value="TO">Tocantins
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-10">
+                                    <div class="field is-horizontal">
+                                        <div class="field-label is-small">
+                                            <label class="label">Município</label>
+                                        </div>
+                                        <div class="field-body">
+                                            <div class="field">
+                                                <div class="control">
+                                                    <div class="select is-small">
+                                                        <select id="municipios-endereco">
+                                                            <option value="1200013">Acrelândia</option>
+                                                            <option value="1200054">Assis Brasil</option>
+                                                            <option value="1200104">Brasiléia</option>
+                                                            <option value="1200138">Bujari</option>
+                                                            <option value="1200179">Capixaba</option>
+                                                            <option value="1200203">Cruzeiro do Sul</option>
+                                                            <option value="1200252">Epitaciolândia</option>
+                                                            <option value="1200302">Feijó</option>
+                                                            <option value="1200328">Jordão</option>
+                                                            <option value="1200336">Mâncio Lima</option>
+                                                            <option value="1200344">Manoel Urbano</option>
+                                                            <option value="1200351">Marechal Thaumaturgo</option>
+                                                            <option value="1200385">Plácido de Castro</option>
+                                                            <option value="1200807">Porto Acre</option>
+                                                            <option value="1200393">Porto Walter</option>
+                                                            <option value="1200401">Rio Branco</option>
+                                                            <option value="1200427">Rodrigues Alves</option>
+                                                            <option value="1200435">Santa Rosa do Purus</option>
+                                                            <option value="1200500">Sena Madureira</option>
+                                                            <option value="1200450">Senador Guiomard</option>
+                                                            <option value="1200609">Tarauacá</option>
+                                                            <option value="1200708">Xapuri</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-10">
+                                    <div id="detalhe-outro" class="box">
+                                        <div class="columns">
+                                            <div class="column is-6">
+                                                <div class="field is-horizontal">
+                                                    <div class="field-label is-small">
+                                                        <label class="label">País</label>
+                                                    </div>
+                                                    <div class="field-body">
+                                                        <div class="field">
+                                                            <div class="control">
+                                                                <div class="select is-small">
+                                                                    <select id="paises-endereco">
+                                                                        <option value="101">Afeganistão</option>
+                                                                        <option value="102">África do Sul</option>
+                                                                        <option value="103">Albânia</option>
+                                                                        <option value="104">Alemanha</option>
+                                                                        <option value="105">Andorra</option>
+                                                                        <option value="106">Angola</option>
+                                                                        <option value="107">Anguilla</option>
+                                                                        <option value="108">Antigua e Barbuda</option>
+                                                                        <option value="109">Antilhas Holandesas</option>
+                                                                        <option value="110">Arábia Saudita</option>
+                                                                        <option value="111">Argélia</option>
+                                                                        <option value="112">Argentina</option>
+                                                                        <option value="113">Armênia</option>
+                                                                        <option value="114">Aruba</option>
+                                                                        <option value="115">Austrália</option>
+                                                                        <option value="116">Áustria</option>
+                                                                        <option value="117">Azerbaijão</option>
+                                                                        <option value="118">Bahamas</option>
+                                                                        <option value="119">Bahrein</option>
+                                                                        <option value="120">Bangladesh</option>
+                                                                        <option value="121">Barbados</option>
+                                                                        <option value="122">Bélgica</option>
+                                                                        <option value="123">Belize</option>
+                                                                        <option value="124">Benin</option>
+                                                                        <option value="125">Bermudas</option>
+                                                                        <option value="126">Bielorússia</option>
+                                                                        <option value="127">Bolívia</option>
+                                                                        <option value="128">Bósnia e Herzegóvina</option>
+                                                                        <option value="129">Botswana</option>
+                                                                        <option value="130">Brunei</option>
+                                                                        <option value="131">Bulgária</option>
+                                                                        <option value="132">Burkina Faso</option>
+                                                                        <option value="133">Burundi</option>
+                                                                        <option value="134">Butão</option>
+                                                                        <option value="135">Cabo Verde</option>
+                                                                        <option value="136">Camarões</option>
+                                                                        <option value="137">Camboja</option>
+                                                                        <option value="138">Canadá</option>
+                                                                        <option value="139">Cazaquistão</option>
+                                                                        <option value="140">Chade</option>
+                                                                        <option value="141">Chile</option>
+                                                                        <option value="142">China</option>
+                                                                        <option value="143">Chipre</option>
+                                                                        <option value="144">Cingapura</option>
+                                                                        <option value="145">Colômbia</option>
+                                                                        <option value="146">Coréia do Norte</option>
+                                                                        <option value="147">Coréia do Sul</option>
+                                                                        <option value="148">Costa do Marfim</option>
+                                                                        <option value="149">Costa Rica</option>
+                                                                        <option value="150">Croácia</option>
+                                                                        <option value="151">Cuba</option>
+                                                                        <option value="152">Dinamarca</option>
+                                                                        <option value="153">Djibuti</option>
+                                                                        <option value="154">Dominica</option>
+                                                                        <option value="155">Egito</option>
+                                                                        <option value="156">El Salvador</option>
+                                                                        <option value="157">Emirados Árabes Unidos</option>
+                                                                        <option value="158">Equador</option>
+                                                                        <option value="159">Eritréia</option>
+                                                                        <option value="160">Eslováquia</option>
+                                                                        <option value="161">Eslovênia</option>
+                                                                        <option value="162">Espanha</option>
+                                                                        <option value="163">Estados Unidos</option>
+                                                                        <option value="164">Estônia</option>
+                                                                        <option value="165">Etiópia</option>
+                                                                        <option value="166">Fiji</option>
+                                                                        <option value="167">Filipinas</option>
+                                                                        <option value="168">Finlândia</option>
+                                                                        <option value="169">França</option>
+                                                                        <option value="170">Gabão</option>
+                                                                        <option value="171">Gâmbia</option>
+                                                                        <option value="172">Geórgia</option>
+                                                                        <option value="173">Ghana</option>
+                                                                        <option value="174">Gibraltar</option>
+                                                                        <option value="175">Granada</option>
+                                                                        <option value="176">Grécia</option>
+                                                                        <option value="177">Groenlândia</option>
+                                                                        <option value="178">Guadalupe</option>
+                                                                        <option value="179">Guam</option>
+                                                                        <option value="180">Guatemala</option>
+                                                                        <option value="181">Guiana</option>
+                                                                        <option value="182">Guiana Francesa</option>
+                                                                        <option value="183">Guiné</option>
+                                                                        <option value="184">Guiné Bissau</option>
+                                                                        <option value="185">Guiné Equatorial</option>
+                                                                        <option value="186">Haiti</option>
+                                                                        <option value="187">Holanda</option>
+                                                                        <option value="188">Honduras</option>
+                                                                        <option value="189">Hungria</option>
+                                                                        <option value="190">Iêmen</option>
+                                                                        <option value="191">Ilhas Cayman</option>
+                                                                        <option value="192">Ilhas Comores</option>
+                                                                        <option value="193">Ilhas Cook</option>
+                                                                        <option value="194">Ilhas Falkland (Malvinas)</option>
+                                                                        <option value="195">Ilhas Färoe</option>
+                                                                        <option value="196">Ilhas Marianas</option>
+                                                                        <option value="197">Ilhas Marshall</option>
+                                                                        <option value="198">Ilhas Pitcairn</option>
+                                                                        <option value="199">Ilhas Salomão</option>
+                                                                        <option value="200">Ilhas Turks e Caicos</option>
+                                                                        <option value="201">Ilhas Virgens Americanas</option>
+                                                                        <option value="202">Ilhas Virgens Britânicas</option>
+                                                                        <option value="203">Índia</option>
+                                                                        <option value="204">Indonésia</option>
+                                                                        <option value="205">Irã</option>
+                                                                        <option value="206">Iraque</option>
+                                                                        <option value="207">Irlanda</option>
+                                                                        <option value="208">Islândia</option>
+                                                                        <option value="209">Israel</option>
+                                                                        <option value="210">Itália</option>
+                                                                        <option value="211">Jamaica</option>
+                                                                        <option value="212">Japão</option>
+                                                                        <option value="213">Jordânia</option>
+                                                                        <option value="214">Kirguistão</option>
+                                                                        <option value="215">Kiribati</option>
+                                                                        <option value="216">Kuwait</option>
+                                                                        <option value="217">Laos</option>
+                                                                        <option value="218">Lesotho</option>
+                                                                        <option value="219">Letônia</option>
+                                                                        <option value="220">Líbano</option>
+                                                                        <option value="221">Libéria</option>
+                                                                        <option value="222">Líbia</option>
+                                                                        <option value="223">Liechtenstein</option>
+                                                                        <option value="224">Lituânia</option>
+                                                                        <option value="225">Luxemburgo</option>
+                                                                        <option value="226">Macau</option>
+                                                                        <option value="227">Macedônia</option>
+                                                                        <option value="228">Madagáscar</option>
+                                                                        <option value="229">Malaísia</option>
+                                                                        <option value="230">Malawi</option>
+                                                                        <option value="231">Maldivas</option>
+                                                                        <option value="232">Mali</option>
+                                                                        <option value="233">Malta</option>
+                                                                        <option value="234">Marrocos</option>
+                                                                        <option value="235">Martinica</option>
+                                                                        <option value="236">Maurício</option>
+                                                                        <option value="237">Mauritânia</option>
+                                                                        <option value="238">Mayotte</option>
+                                                                        <option value="239">México</option>
+                                                                        <option value="240">Mianmar</option>
+                                                                        <option value="241">Micronésia</option>
+                                                                        <option value="242">Moçambique</option>
+                                                                        <option value="243">Moldávia</option>
+                                                                        <option value="244">Mônaco</option>
+                                                                        <option value="245">Mongólia</option>
+                                                                        <option value="246">Montserrat</option>
+                                                                        <option value="247">Namíbia</option>
+                                                                        <option value="248">Nauru</option>
+                                                                        <option value="249">Nepal</option>
+                                                                        <option value="250">Nicarágua</option>
+                                                                        <option value="251">Níger</option>
+                                                                        <option value="252">Nigéria</option>
+                                                                        <option value="253">Niue</option>
+                                                                        <option value="254">Noruega</option>
+                                                                        <option value="255">Nova Caledônia</option>
+                                                                        <option value="256">Nova Zelândia</option>
+                                                                        <option value="257">Omã</option>
+                                                                        <option value="258">Palau</option>
+                                                                        <option value="259">Panamá</option>
+                                                                        <option value="260">Papua Nova Guiné</option>
+                                                                        <option value="261">Paquistão</option>
+                                                                        <option value="262">Paraguai</option>
+                                                                        <option value="263">Peru</option>
+                                                                        <option value="264">Polinésia Francesa</option>
+                                                                        <option value="265">Polônia</option>
+                                                                        <option value="266">Porto Rico</option>
+                                                                        <option value="267">Portugal</option>
+                                                                        <option value="268">Qatar</option>
+                                                                        <option value="269">Quênia</option>
+                                                                        <option value="270">Reino Unido (Grã Bretanha e Irlanda do Norte)</option>
+                                                                        <option value="271">República Centro Africana</option>
+                                                                        <option value="272">República Democrática do Congo</option>
+                                                                        <option value="273">República do Congo</option>
+                                                                        <option value="274">República Dominicana</option>
+                                                                        <option value="275">República Tcheca</option>
+                                                                        <option value="276">Reunião</option>
+                                                                        <option value="277">Romênia</option>
+                                                                        <option value="278">Ruanda</option>
+                                                                        <option value="279">Rússia</option>
+                                                                        <option value="280">Saara Ocidental</option>
+                                                                        <option value="281">Saint Pierre e Miquelon</option>
+                                                                        <option value="282">Samoa</option>
+                                                                        <option value="283">Samoa Americana</option>
+                                                                        <option value="284">San Marino</option>
+                                                                        <option value="285">Santa Helena</option>
+                                                                        <option value="286">Santa Lúcia</option>
+                                                                        <option value="287">São Cristóvão e Nevis</option>
+                                                                        <option value="288">São Tomé e Príncipe</option>
+                                                                        <option value="289">São Vicente e Granadinas</option>
+                                                                        <option value="290">Senegal</option>
+                                                                        <option value="291">Serra Leoa</option>
+                                                                        <option value="292">Seychelles</option>
+                                                                        <option value="293">Síria</option>
+                                                                        <option value="294">Somália</option>
+                                                                        <option value="295">Sri Lanka</option>
+                                                                        <option value="296">Suazilândia</option>
+                                                                        <option value="297">Sudão</option>
+                                                                        <option value="298">Suécia</option>
+                                                                        <option value="299">Suíça</option>
+                                                                        <option value="300">Suriname</option>
+                                                                        <option value="301">Tadjiquistão</option>
+                                                                        <option value="302">Tailândia</option>
+                                                                        <option value="303">Taiwan</option>
+                                                                        <option value="304">Tanzânia</option>
+                                                                        <option value="305">Timor Leste</option>
+                                                                        <option value="306">Togo</option>
+                                                                        <option value="307">Tokelau</option>
+                                                                        <option value="308">Tonga</option>
+                                                                        <option value="309">Trinidad e Tobago</option>
+                                                                        <option value="310">Tunísia</option>
+                                                                        <option value="311">Turcomênia</option>
+                                                                        <option value="312">Turquia</option>
+                                                                        <option value="313">Tuvalu</option>
+                                                                        <option value="314">Ucrânia</option>
+                                                                        <option value="315">Uganda</option>
+                                                                        <option value="316">Uruguai</option>
+                                                                        <option value="317">Uzbequistão</option>
+                                                                        <option value="318">Vanuatu</option>
+                                                                        <option value="319">Vaticano</option>
+                                                                        <option value="320">Venezuela</option>
+                                                                        <option value="321">Vietnam</option>
+                                                                        <option value="322">Yugoslavia</option>
+                                                                        <option value="323">Zâmbia</option>
+                                                                        <option value="324">Zimbabwe</option>
+                                                                        <option value="777">APÁTRIDA</option>
+                                                                        <option value="888">OUTRAS NACIONALIDADES</option>
+                                                                        <option value="999">IGNORADO</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- estado -->
+                                                <div class="field is-horizontal">
+                                                    <div class="field-label is-small">
+                                                        <label class="label">Estado</label>
+                                                    </div>
+                                                    <div class="field-body">
+                                                        <div class="field">
+                                                            <div class="control">
+                                                                <input type="text" class="input is-small">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- município -->
+                                                <div class="field is-horizontal">
+                                                    <div class="field-label is-small">
+                                                        <label class="label">Município</label>
+                                                    </div>
+                                                    <div class="field-body">
+                                                        <div class="field">
+                                                            <div class="control">
+                                                                <input type="text" class="input is-small">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-10">
+                                    <div class="columns">
+                                        <div class="column">
+                                            <div class="field">
+                                                <div class="control">
+                                                    <label class="label is-small">Caixa Postal</label>
+                                                    <input type="number" class="input is-small">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="field">
+                                                <div class="control">
+                                                    <label class="label is-small">CEP</label>
+                                                    <input type="number" class="input is-small">
+                                                    <p class="help">Exemplo, 74000-010.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="field">
+                                                <div class="control">
+                                                    <label class="label is-small">Bairro</label>
+                                                    <input type="text" class="input is-small">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="field">
+                                                <div class="control">
+                                                    <label class="label is-small">Distrito</label>
+                                                    <input type="text" class="input is-small">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group col-sm-10">
+                                    <div class="field">
+                                        <div class="control">
+                                            <label class="label is-small">Endereço</label>
+                                            <input type="text" class="input is-small">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="form-group col-sm-10">
+
+                                </div>
+
+
+
+
+
+
+            </form>
+
+            </div>
+
+            <!-- Vinculo -->
+
+            <div id="div_Nome" class="col-sm-12 col-md-10 col-lg-8 border my-3" style="display:block">
+
+                <div class="row">
+                    <div class="col-12 text-left my-3">
+                        <h4>Vinculo</h4>
+                    </div>
+                </div>
+
+                <form>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-sm-6">
+
+                            <label id="lbl_NomeAtribuido" for="txt_NomeAtribuido" class="font-weight-bold">Nome:</label>
+                            <input id="txt_NomeAtribuido" type="text" oninput="nomeMudou(1)" class="form-control">
+
+                        </div>
+
+                        <div class="form-group col-sm-6">
+
+                            <label id="lbl_Sobrenome" for="txt_Sobrenome" class="font-weight-bold">Identificador:</label>
+                            <input id="txt_Sobrenome" type="text" oninput="nomeMudou(2)" class="form-control">
+
+                        </div>
+
+                        <div class="form-group col-sm-4">
+
+
+                            <label class="label is-small">Relacionamento</label>
+                            <div class="select">
+                                <select>
+                                    <option value="7" selected="">Avó materna</option>
+                                    <option value="8">Avô materno</option>
+                                    <option value="22">Cônjuge/companheiro(a)
+                                    </option>
+                                    <option value="23">Irmão</option>
+                                    <option value="24">Irmã</option>
+                                    <option value="25">Meio-irmão</option>
+                                    <option value="26">Meio-irmã</option>
+                                    <option value="27">Irmãos</option>
+                                    <option value="28">Criança</option>
+                                    <option value="29">Filha</option>
+                                    <option value="36">Avó paterna</option>
+                                    <option value="37">Avô paterno</option>
+                                    <option value="38">Tio materno</option>
+                                    <option value="40">Tio paterno</option>
+                                    <option value="41">Tia paterna</option>
+                                    <option value="189">Recém-nascido</option>
+                                    <option value="254">Pais</option>
+                                    <option value="262">Mãe adotiva</option>
+                                    <option value="263">Pai adotivo</option>
+                                    <option value="264">Responsável</option>
+                                    <option value="265">Coabitante</option>
+                                    <option value="939">Tia materna</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group col-sm-4">
+
+                            <label class="label">Data inicial</label>
+                            <input type="date">
+
+                        </div>
+
+                        <div class="form-group col-sm-4">
+
+                            <label class="label">Data final</label>
+                            <input type="date">
+
+                        </div>
+
+                        <div class="form-group col-sm-2">
+
+                            <input id="btn_AddNome" type="button" class="form-control" value="Adicionar Vinculo" onclick="adicionarNovoNome()">
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-sm-12">
+
+                            <!-- <label class="font-weight-bold">Nome Completo:</label>-->
+                        </div>
+
+                        <div class="form-group col-sm-10">
+
+                            <input id="txt_NomeCompletoGerado1" class="form-control" type="text" disabled="disabled" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-1 text-center">
+
+                            <label id="lbl_UtilizacaoNome1" style="display: none"></label>
+
+                        </div>
+
+                        <div class="form-group col-sm-1">
+
+                            <input id="btn_ApagarNome1" type="button" value="Apagar" class="form-control" onclick="apagarNome(1)" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-10">
+
+                            <input id="txt_NomeCompletoGerado2" class="form-control" type="text" disabled="disabled" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-1 text-center">
+
+                            <label id="lbl_UtilizacaoNome2" style="display: none"></label>
+
+                        </div>
+
+                        <div class="form-group col-sm-1">
+
+                            <input id="btn_ApagarNome2" type="button" value="Apagar" class="form-control" onclick="apagarNome(2)" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-10">
+
+                            <input id="txt_NomeCompletoGerado3" class="form-control" type="text" disabled="disabled" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-1 text-center">
+
+                            <label id="lbl_UtilizacaoNome3" style="display: none"></label>
+
+                        </div>
+
+                        <div class="form-group col-sm-1">
+
+                            <input id="btn_ApagarNome3" type="button" value="Apagar" class="form-control" onclick="apagarNome(3)" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-10">
+
+                            <input id="txt_NomeCompletoGerado4" class="form-control" type="text" disabled="disabled" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-1 text-center">
+
+                            <label id="lbl_UtilizacaoNome4" style="display: none"></label>
+
+                        </div>
+
+                        <div class="form-group col-sm-1">
+
+                            <input id="btn_ApagarNome4" type="button" value="Apagar" class="form-control" onclick="apagarNome(4)" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-10">
+
+                            <input id="txt_NomeCompletoGerado5" class="form-control" type="text" disabled="disabled" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-1 text-center">
+
+                            <label id="lbl_UtilizacaoNome5" style="display: none"></label>
+
+                        </div>
+
+                        <div class="form-group col-sm-1">
+
+                            <input id="btn_ApagarNome5" type="button" value="Apagar" class="form-control" onclick="apagarNome(5)" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-10">
+
+                            <input id="txt_NomeCompletoGerado6" class="form-control" type="text" disabled="disabled" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-1 text-center">
+
+                            <label id="lbl_UtilizacaoNome6" style="display: none"></label>
+
+                        </div>
+
+                        <div class="form-group col-sm-1">
+
+                            <input id="btn_ApagarNome6" type="button" value="Apagar" class="form-control" onclick="apagarNome(6)" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-10">
+
+                            <input id="txt_NomeCompletoGerado7" class="form-control" type="text" disabled="disabled" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-1 text-center">
+
+                            <label id="lbl_UtilizacaoNome7" style="display: none"></label>
+
+                        </div>
+
+                        <div class="form-group col-sm-1">
+
+                            <input id="btn_ApagarNome7" type="button" value="Apagar" class="form-control" onclick="apagarNome(7)" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-10">
+
+                            <input id="txt_NomeCompletoGerado8" class="form-control" type="text" disabled="disabled" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-1 text-center">
+
+                            <label id="lbl_UtilizacaoNome8" style="display: none"></label>
+
+                        </div>
+
+                        <div class="form-group col-sm-1">
+
+                            <input id="btn_ApagarNome8" type="button" value="Apagar" class="form-control" onclick="apagarNome(8)" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-10">
+
+                            <input id="txt_NomeCompletoGerado9" class="form-control" type="text" disabled="disabled" style="display: none">
+
+                        </div>
+
+                        <div class="form-group col-sm-1 text-center">
+
+                            <label id="lbl_UtilizacaoNome9" style="display: none"></label>
+
+                        </div>
+
+                        <div class="form-group col-sm-1">
+
+                            <input id="btn_ApagarNome9" type="button" value="Apagar" class="form-control" onclick="apagarNome(9)" style="display: none">
+
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+            </div>
+
+
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="js/jquery-3.3.1.js"></script>
+            <script src="js/popper.js"></script>
+            <script src="js/bootstrap.js"></script>
 
 </body>
 
