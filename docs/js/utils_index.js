@@ -219,6 +219,10 @@ function adicionarNovaComunicacao(){
     // document.getElementById('spn_NovaComunicacao').innerHTML += '<div class="form-row border rounded col-sm-12 px-3 pt-3 my-3"><div class="form-group col-sm-4"><input id="txt_meioComunicacao'+quantComunicacao+'" class="form-control" type="text" disabled></div><div class="form-group col-sm-4"><input id="txt_Preferencia'+quantComunicacao+'" class="form-control" type="text" disabled></div><div class="form-group col-sm-4"><input id="txt_Utilizacao'+quantComunicacao+'" class="form-control" type="text" disabled></div><div class="form-group col-sm-6"><input id="txt_DetalheComunicacao'+quantComunicacao+'" class="form-control" type="text" disabled></div></div>';
     document.getElementById('spn_NovaComunicacao').innerHTML += '<div class="form-control style="display: inline;"">'+meio+' - '+preferencia+' - '+utilizacao+' - '+detalhes+'</div>';
 
+    document.getElementById("sel_meioComunicacao").value = '';
+    document.getElementById("sel_codPreferencia").value = '';
+    document.getElementById("sel_codUtilizacao").value = '';
+    document.getElementById("txt_detalheComunicacaoEletronica").value = '';
     // comunicacoes.push(meio);
     // comunicacoes.push(preferencia);
     // comunicacoes.push(utilizacao);
