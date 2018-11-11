@@ -1,8 +1,8 @@
 var quantNomes = 0;
 var nomes = [];
 var utilizacaoNome = [];
-var quantComunicacao = 0;
-var comunicacoes = [];
+// var quantComunicacao = 0;
+// var comunicacoes = [];
 
 function novoCadastro() {
     document.getElementById('div_PaginaInicial').style.display = 'none';
@@ -213,22 +213,21 @@ function adicionarNovaComunicacao(){
     var preferencia = document.getElementById("sel_codPreferencia").value;
     var utilizacao = document.getElementById("sel_codUtilizacao").value;
     var detalhes = document.getElementById("txt_detalheComunicacaoEletronica").value;
-
-    comunicacoes.push(meio);
-    comunicacoes.push(preferencia);
-    comunicacoes.push(utilizacao);
-    comunicacoes.push(detalhes);
     
-    quantComunicacao++;
+    // quantComunicacao++;
 
-    document.getElementById('spn_NovaComunicacao').innerHTML += '<div class="form-row border rounded col-sm-12 px-3 pt-3 my-3"><div class="form-group col-sm-4"><input id="txt_meioComunicacao'+quantComunicacao+'" class="form-control" type="text" disabled></div><div class="form-group col-sm-4"><input id="txt_Preferencia'+quantComunicacao+'" class="form-control" type="text" disabled></div><div class="form-group col-sm-4"><input id="txt_Utilizacao'+quantComunicacao+'" class="form-control" type="text" disabled></div><div class="form-group col-sm-6"><input id="txt_DetalheComunicacao'+quantComunicacao+'" class="form-control" type="text" disabled></div></div>';
+    // document.getElementById('spn_NovaComunicacao').innerHTML += '<div class="form-row border rounded col-sm-12 px-3 pt-3 my-3"><div class="form-group col-sm-4"><input id="txt_meioComunicacao'+quantComunicacao+'" class="form-control" type="text" disabled></div><div class="form-group col-sm-4"><input id="txt_Preferencia'+quantComunicacao+'" class="form-control" type="text" disabled></div><div class="form-group col-sm-4"><input id="txt_Utilizacao'+quantComunicacao+'" class="form-control" type="text" disabled></div><div class="form-group col-sm-6"><input id="txt_DetalheComunicacao'+quantComunicacao+'" class="form-control" type="text" disabled></div></div>';
+    document.getElementById('spn_NovaComunicacao').innerHTML += '<div class="form-control style="display: inline;"">'+meio+' - '+preferencia+' - '+utilizacao+' - '+detalhes+'</div>';
 
-    
-    for (var i = 0; i < comunicacoes.length; i++) {
-        document.getElementById('txt_meioComunicacao' + (i + 1)).value = comunicacoes[i];
-        document.getElementById('txt_Preferencia' + (i + 1)).value = comunicacoes[i+1];
-        document.getElementById('txt_Utilizacao' + (i + 1)).value = comunicacoes[i+2];
-        document.getElementById('txt_DetalheComunicacao' + (i + 1)).value = comunicacoes[i+3];
-    }
+    // comunicacoes.push(meio);
+    // comunicacoes.push(preferencia);
+    // comunicacoes.push(utilizacao);
+    // comunicacoes.push(detalhes);
+    // for (var i = 0; i < comunicacoes.length; i++) {
+    //     document.getElementById('txt_meioComunicacao' + (i + 1)).value = comunicacoes[i];
+    //     document.getElementById('txt_Preferencia' + (i + 1)).value = comunicacoes[i+1];
+    //     document.getElementById('txt_Utilizacao' + (i + 1)).value = comunicacoes[i+2];
+    //     document.getElementById('txt_DetalheComunicacao' + (i + 1)).value = comunicacoes[i+3];
+    // }
 
 }
